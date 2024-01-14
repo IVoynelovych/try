@@ -1,21 +1,21 @@
 {
-  "name": "DECBASE",
+  "name": "try",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Zetonen.github.io/DECBASE",
+  "homepage": "https://IVoynelovych.github.io/try",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /DECBASE/"
+    "build": "parcel build src/*.html --public-url /try/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zetonen/DECBASE.git"
+    "url": "git+https://github.com/IVoynelovych/try.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zetonen/DECBASE/issues"
+    "url": "https://github.com/IVoynelovych/try/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"

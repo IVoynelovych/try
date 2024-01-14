@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/index.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
     <include src="./partials/header.html"></include>
-    <main>
-      <include src="./partials/hero.html"></include>
-      <include src="./partials/what-we-do.html"></include>
-      <include src="./partials/about-us.html"></include>
-      <include src="./partials/completed-work.html"></include>
-      <include src="./partials/testimonials.html"></include>
-      <include src="./partials/letest-news.html"></include>
-      <include src="./partials/dont-forget.html"></include>
-    </main>
-    <include src="./partials/footer.html"></include>
-    <include src="./partials/loader.html"></include>
-    <include src="./partials/close-question.html"></include>
-    <include src="./partials/action.html"></include>
-
-  </body>
+    <include src="./partials/test_info.html"></include>
+    <ul class="questions">
+        <include src="./partials/question_oneans.html"></include>
+        <include src="./partials/question_fewans.html"></include>
+        <include src="./partials/question_textans.html"></include>
+    </ul>
+    <include src="./partials/end_btn.html"></include>
+</body>
 </html>

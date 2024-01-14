@@ -1,0 +1,33 @@
+.end{
+    max-width: 320px;
+    margin: 28px auto 0;
+    padding-bottom:60px;
+    text-align: center;
+}
+.end_btn{
+padding: 12px 20px 12px 20px;
+border-radius: 20px;
+border: 4px;
+border: 4px solid rgba(255, 168, 168, 1);
+background-color: rgba(255, 243, 247, 1);
+}
+@media screen and (min-width:768px) {
+    .end{
+        max-width: 768px;
+        padding-bottom:85px;
+        text-align: right;
+    }
+    .end_btn{
+        font-weight: 600;
+    }
+}
+@media screen and (min-width:768px) {
+    .end{
+        max-width: 1440px;
+        padding-bottom:60px;
+        margin-top: 40px;
+    }
+    .end_btn{
+        font-weight: 600;
+    }
+}

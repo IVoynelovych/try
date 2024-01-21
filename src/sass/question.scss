@@ -2,6 +2,9 @@
     max-width: 320px;
     margin: 0 auto;
 }
+label{
+    display: block;
+  }
 .question + .question{
     margin-top: 20px;
 }
@@ -66,6 +69,18 @@ color: rgba(12, 12, 12, 1);
 }
 
 .answ_list_item{
+    // display: flex;
+    gap: 20px;
+    padding: 7px 0;
+    align-items: center;
+}
+.labl{
+    display: flex;
+    gap: 20px;
+    padding: 7px 0;
+    align-items: center;
+}
+.labla{
     display: flex;
     gap: 20px;
     padding: 7px 0;

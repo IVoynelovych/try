@@ -6,7 +6,12 @@ html {
   ::before {
     box-sizing: inherit;
   }
-  
+  .un_use{
+    display: none;
+  }
+  .hid{
+    display: none;
+  }
   .is-hidden {
     position: absolute;
     width: 1px;
@@ -43,7 +48,6 @@ html {
   img {
     display: block;
   }
-  
   ul {
     padding: 0;
     margin: 0;
@@ -78,4 +82,3 @@ html {
   svg{
     display:block;
   }
-  
